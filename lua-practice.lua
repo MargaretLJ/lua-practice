@@ -20,6 +20,12 @@ for index=1,#x do
     print(index,x[index])
 end
 
+s="margaret liza john"
+for i=1,#s do 
+    print(s:sub(i,i))
+end
+
+
 local b={"abc","cde",34,2.3}
 for index,value in ipairs(x) do
     print(index,value)
@@ -99,6 +105,10 @@ for index,values in ipairs(v3) do
     print(index,values)
 end
 print(v3+v3)
+
+
+
+
 
 
 
